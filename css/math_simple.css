@@ -1,0 +1,64 @@
+
+.rederror{
+	color: red;
+}
+.content{
+	width: 47rem;
+	margin: 0% auto;
+}
+.content .title{
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.content .subtitle{
+	padding-top: 1.25rem;
+}
+
+.keydiv div{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 7.5rem;
+	height:7.5rem;
+	border-radius: 0.625rem;
+	border:solid 1px #ff000055;
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	margin: 0.625rem;
+}
+
+.keydiv{
+	border: 1px solid #eee;
+	border-radius: 0.625rem;
+	margin: 0.625rem;
+	background-color: #eee;
+}
+.keydiv div:last-child{
+	color:#330000;
+	width: 35rem;
+}
+
+#num1,#num2,#num3,#symbol{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 7.5rem;
+	height:7.5rem;
+	border-radius: 0.625rem;
+	border:solid 1px coral;
+	text-align: center;
+	padding: 0%;
+	margin: 0%;
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 0.625rem;
+}
+
+#answer{
+	color: crimson;
+}
+
+#err{
+	color: red;
+}
